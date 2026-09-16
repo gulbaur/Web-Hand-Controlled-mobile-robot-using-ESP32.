@@ -3,7 +3,7 @@ import mediapipe as mp
 import requests
 
 # Replace with your actual ESP32 IP address
-ESP32_IP = "http://172.20.10.12"
+ESP32_IP = "http://<your-esp32-ip>"
 
 # Gesture-to-URL mapping
 def send_command(cmd):
