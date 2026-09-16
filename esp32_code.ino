@@ -2,8 +2,8 @@
 #include <WebServer.h>
 
 // Wi-Fi credentials
-const char* ssid     = "iPhoneGul";
-const char* password = "77777777";
+const char* ssid     = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 // Web server on port 80
 WebServer server(80);
